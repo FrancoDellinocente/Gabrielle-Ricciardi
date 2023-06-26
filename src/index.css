@@ -23,6 +23,7 @@ body {
 :root {
   --negro: #000;
   --color-logo:#F4D6A2;
+  
   --color-tituloClaro: #7A736B;
   --color-cuerpoClaro: #7C7673;
   --color-fondoClaro: #F5F4EC;
@@ -31,7 +32,8 @@ body {
   --color-cuerpoOscuro: #AAAAAA;
   --color-fondoOscuro: #333333;
   /* Tipografía */
-  --tipo-titulos: 'Playfair', serif;
+  --tipo-titulos: 'Italianno', cursive;;
+  --tipo-subtitulos: 'Playfair', serif;
   --tipo-cuerpo: 'Crimson Text', serif;;
 }
 
@@ -159,7 +161,7 @@ svg {
 body {
   min-height: 100vh;
   font-size: 100%;
-  font-family: var(--tipo-titulos);
+  font-family: var(--tipo-subtitulos);
   background-color: var(--color-fondoOscuro);
   color: var(--color-tituloOscuro);
   /* opcional */

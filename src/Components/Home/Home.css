@@ -31,10 +31,6 @@
     max-height: 13vw;
 }
 
-.Home__title{
-    font-family: var(--tipo-titulos);
-    font-size: 4em;
-}
 
 .Home__slogan{
     font-family: var(--tipo-cuerpo);
@@ -45,6 +41,7 @@
     font-size: 1.5em;
     padding: .7em 1.5em;
     margin-top: 2em;
+    font-family: var(--tipo-subtitulos);
     color: var(--color-fondoOscuro);
     background-color: var(--color-logo);
     border: .1em solid var(--color-logo);
