@@ -45,16 +45,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="buttons__button">
-          <Link className="button__link"  onClick={toggleMenu} to="/wines" >
-            WINES
-          </Link>
-        </li>
-        <li className="buttons__button">
           <Link className="button__link" onClick={toggleMenu} to="/visit" >
             VISIT
           </Link>
         </li>
-
+        <li className="buttons__button">
+          <Link className="button__link"  onClick={toggleMenu} to="/wines" >
+            WINES
+          </Link>
+        </li>
+        
       </ul>
     </div>
   );

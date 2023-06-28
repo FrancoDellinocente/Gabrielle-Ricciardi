@@ -39,17 +39,21 @@
 
 .navbar__buttons{
     height: 4em;
+
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    cursor: pointer;
+
     gap: 2em;
 }
 
 
-
+.buttons__button{
+    border-bottom: 2px solid rgba(244, 214, 162, 0);
+    transition: all 0.2s;
+}
 .buttons__button:hover{
-    color:var(--color-tituloOscuro);
+    border-bottom: 2px solid rgba(244, 214, 162, 1);
 }
 
 .button__link{
