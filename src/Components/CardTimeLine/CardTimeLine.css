@@ -1,4 +1,87 @@
 .card{
+    position: relative;
+    padding: 2.5em 0;
+    width: 100%;
+    
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+
+.card__info{
+    position: relative;
+    left: 0;
+    height: 90%;
+    width: 100%;
+
+    padding: 8% 30% 8% 12%;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.6em;
+}
+
+.card__conataineryear{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card__year{
+    display: inline-block;
+    color: var(--negro);
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.card__line{
+    position: absolute;
+    height: 1px;
+    background-color: var(--color-cuerpoClaro);
+    width: 100%;
+
+    top: 0.6em;
+}
+
+.card__title{
+    color: var(--negro);
+    font-family: var(--tipo-subtitulos);
+    text-align: start;
+    
+    font-size: 1.5em;
+}
+
+.card__paragraph{
+    color: var(--color-cuerpoClaro);
+    font-family: var(--tipo-cuerpo);
+    text-align: start;
+    font-size: 1.1em;
+    line-height: 1;
+    hyphens: none;
+}
+
+.card__containerimg{
+
+    width: 26em;
+    overflow: hidden;
+}
+
+.card__img{
+    width: 100%;
+}
+
+@media (max-width: 385px) {
+    /* .card {
+         max-width: 20em; 
+    }
+    .card{
     background-color: var(--color-fondoClaro);
     border-radius: 3em;
     overflow: hidden;
@@ -24,8 +107,8 @@
 .card__title{
     color: var(--color-tituloClaro);
     font-family: var(--tipo-subtitulos);
-    text-align: center;
-    font-size: 4em;
+    
+    font-size: 2em;
     line-height: 1;
 }
 
@@ -33,7 +116,7 @@
     color: var(--color-cuerpoClaro);
     font-family: var(--tipo-cuerpo);
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1;
 }
 
@@ -45,7 +128,9 @@
 }
 
 @media (max-width: 385px) {
-    /* .card {
+     .card {
          max-width: 20em; 
-    } */
+    } 
+    
+    */
   }

@@ -33,7 +33,7 @@ body {
   --color-fondoOscuro: #333333;
   /* Tipografía */
   --tipo-titulos: 'Italianno', cursive;;
-  --tipo-subtitulos: 'Playfair', serif;
+  --tipo-subtitulos: 'Roboto', sans-serif;
   --tipo-cuerpo: 'Crimson Text', serif;;
 }
 

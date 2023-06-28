@@ -75,37 +75,32 @@
 
     display: flex;
     flex-flow: column;
-    align-items: center;
     justify-content: center;
     gap: 6em;
 }
 
 .wraptimeline__title{
-
+    align-self: center;
     font-family: var(--tipo-titulos);
     font-size: 11em;
 }
 
 .wraptimeline__timeline{
+    width: 100%;
+    
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    gap: 5em;
 }
 
 .timeline__section{
-
+    width: 80%;
     display: flex;
     flex-flow: column;
-    align-items: center;
     justify-content: center;
-    gap: 3em;
-    
 }
 
-.timeline__year{
-    font-family: var(--tipo-titulos);
-    font-size: 8em;
-    justify-self: self-end;
-}
+.timeline__section:nth-child(even) {
+    align-self: flex-end;
+  }

@@ -2,7 +2,7 @@
     position:fixed;
     width: 100%;
     background-color: var(--color-fondoOscuro);
-    z-index: 2;
+    z-index: 3;
     padding: 0 5%;
 
     display: flex;

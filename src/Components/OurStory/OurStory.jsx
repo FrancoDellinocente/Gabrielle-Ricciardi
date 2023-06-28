@@ -152,7 +152,6 @@ const OurStory = () => {
         <div className='wraptimeline__timeline'>
           {TimeLine.map((aux)=>(
             <div key={aux.id} className='timeline__section'>
-              <h1 className='timeline__year'>{aux.year}</h1>
               <CardTimeLine Info={aux}/>
             </div>
           ))}
