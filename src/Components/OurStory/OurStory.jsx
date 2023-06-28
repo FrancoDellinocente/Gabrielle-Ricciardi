@@ -1,52 +1,123 @@
 /* eslint-disable react/no-unescaped-entities */
 import './OurStory.css'
+import CardTimeLine from '../CardTimeLine/CardTimeLine';
 import Family_1 from '../../assets/img/Family_1.png'; 
 import Verona from '../../assets/img/Verona_1.jpg'; 
-import CardTimeLine from '../CardTimeLine/CardTimeLine';
+import i1623 from '../../assets/img/Timeline/1623.jpg';
+import i1645 from '../../assets/img/Timeline/1645.jpg';
+import i1692 from '../../assets/img/Timeline/1692.jpg';
+import i1740 from '../../assets/img/Timeline/1740.jpg';
+import i1764 from '../../assets/img/Timeline/1764.jpg';
+import i1801 from '../../assets/img/Timeline/1801.png';
+import i1870 from '../../assets/img/Timeline/1870.jpg';
+import i1890 from '../../assets/img/Timeline/1890.jpg';
+import i1920 from '../../assets/img/Timeline/1920.jpg';
+import i1957 from '../../assets/img/Timeline/1957.jpg';
+import i2002 from '../../assets/img/Timeline/2002.jpg';
+import i2010 from '../../assets/img/Timeline/2010.jpg';
+import i2023 from '../../assets/img/Timeline/2023.jpg';
 
 const OurStory = () => {
   
   const TimeLine = [
     {
         id:1,
-        img:Verona,
-        year: 1625,
-        title:'Fundación de la Bodega',
-        paragraph:'Giovanni Ricciardi, apasionado enólogo, establece los viñedos de Gabrielle Ricciardi en la pintoresca provincia de Verona, Italia. Es el inicio de una larga tradición vinícola familiar.', 
+        img:i1623,
+        year: 1623,
+        title:'Winery Foundation',
+        paragraph:'Giovanni Ricciardi, a passionate winemaker, establishes the vineyards of Gabrielle Ricciardi in the picturesque province of Verona, Italy. It marks the beginning of a long family winemaking tradition.', 
     },
     {
         id:2,
-        img:Verona,
-        year: 1650,
-        title:'Primer Amarone',
-        paragraph:'Gabrielle Ricciardi elabora su primer Amarone, un vino de cuerpo completo y sabores intensos, utilizando una selección especial de uvas Corvina, Rondinella y Molinara. El Amarone se convierte en el emblema de la bodega y marca el comienzo de su renombre internacional.', 
+        img:i1645,
+        year: 1645,
+        title:'First Amarone',
+        paragraph:'Gabrielle Ricciardi crafts its first Amarone under the meticulous guidance of Giovanni Ricciardi. This bold and complex wine becomes a testament to their dedication and sets the standard for future vintages.', 
     },
     {
         id:3,
-        img:Verona,
-        year: 1675,
-        title:'Reconocimiento Real',
-        paragraph:'Los vinos de Gabrielle Ricciardi son reconocidos por la realeza, y la bodega recibe su primera distinción real como proveedor oficial de vinos de la corte. El prestigio de la marca se afianza aún más', 
+        img:i1692,
+        year: 1692,
+        title:'Royal Recognition',
+        paragraph:'Gabrielle Ricciardi receives royal recognition as the official wine supplier to the court, solidifying their reputation for producing exceptional wines of elegance and refinement.', 
     },
     {
         id:4,
-        img:Verona,
-        year: 1700,
-        title:'Expansión a Nuevos Mercados',
-        paragraph:'Gabrielle Ricciardi expande su alcance y comienza a exportar sus vinos a países vecinos, incluyendo Francia y Alemania. La calidad y la elegancia de los vinos conquistan los paladares internacionales.', 
+        img:i1740,
+        year: 1740,
+        title:'Expansion to New Markets',
+        paragraph:'Gabrielle Ricciardi embarks on a journey to expand its presence in new markets, introducing their wines to discerning enthusiasts around the world, captivating palates far and wide.', 
     },
     {
         id:5,
-        img:Verona,
-        year: 1725,
-        title:'Innovación en el Proceso de Vinificación',
-        paragraph:'Gabrielle Ricciardi introduce técnicas de vinificación innovadoras, como la crianza en barricas de roble francés, que aportan complejidad y sutileza a sus vinos. El uso de nuevas tecnologías impulsa la excelencia en la producción.', 
-    }
+        img:i1764,
+        year: 1764,
+        title:'Innovation in Winemaking Process',
+        paragraph:'Gabrielle Ricciardi embraces innovation, combining traditional winemaking methods with groundbreaking techniques, resulting in wines of unparalleled quality and character.', 
+    },
+    {
+      id:6,
+      img:i1801,
+      year: 1801,
+      title:'The Legendary Vintage',
+      paragraph:'Gabrielle Ricciardi unveils a legendary vintage that captures the essence of their terroir and craftsmanship. This exceptional wine becomes an emblem of their unwavering commitment to excellence.', 
+    },
+    {
+      id:7,
+      img:i1870,
+      year: 1870,
+      title:'Vineyard Expansion',
+      paragraph:'Gabrielle Ricciardi acquires additional vineyard plots, expanding their domain and preserving the heritage of the Verona region, ensuring a continued legacy of exceptional winemaking.', 
+    },
+    {
+      id:8,
+      img:i1890,
+      year: 1890,
+      title:'Sustainability and Conservation',
+      paragraph:'Gabrielle Ricciardi pioneers sustainable practices in viticulture and winemaking, prioritizing environmental stewardship to preserve the natural beauty of their vineyards for generations to come.', 
+    },
+    {
+      id:9,
+      img:i1920,
+      year: 1920,
+      title:'International Expansion',
+      paragraph:'Gabrielle Ricciardi ventures into new international markets, captivating wine lovers worldwide with their expressive wines, showcasing the distinct character of Verona´s vineyards.', 
+    },
+    {
+      id:10,
+      img:i1957,
+      year: 1957,
+      title:'Innovation and Technology',
+      paragraph:'Gabrielle Ricciardi embraces innovation and cutting-edge technology in their winemaking process, marrying tradition with modern advancements to achieve wines of utmost precision and quality', 
+    },
+    {
+      id:11,
+      img:i2002,
+      year: 2002,
+      title:'Fundación de la Bodega',
+      paragraph:'Giovanni Ricciardi, apasionado enólogo, establece los viñedos de Gabrielle Ricciardi en la pintoresca provincia de Verona, Italia. Es el inicio de una larga tradición vinícola familiar.', 
+    },
+    {
+      id:12,
+      img:i2010,
+      year: 2010,
+      title:'Worldwide Acclaim',
+      paragraph:'Gabrielle Ricciardi´s wines garner worldwide acclaim, earning prestigious awards and accolades, solidifying their position as a revered and sought-after winery globally.', 
+    },
+    {
+      id:13,
+      img:i2023,
+      year: 2023,
+      title:'Celebrating 400 Years of Excellence',
+      paragraph:'Gabrielle Ricciardi celebrates its 400th anniversary as one of Italy´s oldest and most prestigious wineries. A series of special events and limited-edition commemorative wines pay tribute to the rich history and passion that has driven the winery throughout the centuries', 
+    },
   ]
   
   return (
     <div className='ourstory'>
-      <img className='ourstory__firstimg' src={Verona}></img>
+      <div className='ourstory__firstimg'>
+        <img className='firstimg__img' src={Verona}></img>
+      </div>
       <div className='ourstory__banner'>
         <div className='banner__containerimg'>
           <img className='banner__img' src={Family_1}></img>
@@ -82,8 +153,7 @@ const OurStory = () => {
           {TimeLine.map((aux)=>(
             <div key={aux.id} className='timeline__section'>
               <h1 className='timeline__year'>{aux.year}</h1>
-              <div className='timeline__line'></div>
-              <CardTimeLine className='timeline__block' Info={aux}/>
+              <CardTimeLine Info={aux}/>
             </div>
           ))}
         </div>

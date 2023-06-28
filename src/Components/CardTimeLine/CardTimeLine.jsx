@@ -6,11 +6,11 @@ const CardTimeLine = ({Info}) => {
 
   return (
     <div className='card'>
+        <img className='card__img' src={Info.img} loading="lazy"/>
         <div className='card__info'>
-            <h1>{Info.title}</h1>
-            <p>{Info.paragraph}</p>
+            <h1 className='card__title'>{Info.title}</h1>
+            <p className='card__paragraph'>{Info.paragraph}</p>
         </div>
-        <img className='card__img' src={Info.img} />
     </div>
   )
 }
