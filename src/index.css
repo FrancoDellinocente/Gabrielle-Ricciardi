@@ -22,6 +22,7 @@ body {
 /* Aquí definimos las Custom properties */
 :root {
   --negro: #000;
+  --blanco:#FFF;
   --color-logo:#F4D6A2;
   
   --color-tituloClaro: #7A736B;
