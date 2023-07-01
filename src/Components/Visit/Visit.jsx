@@ -1,26 +1,38 @@
-import CardVisit from '../CardVisit/CardVisit';
 import './Visit.css'
-import Barrels_1 from '../../assets/img/Barrels_1.jpg';
-import Barrels_2 from '../../assets/img/Barrels_2.jpg';
-import Barrels_3 from '../../assets/img/Barrels_3.jpg';
 import Carousel from '../Carousel/Carousel';
+import PriceCard from '../PriceCard/PriceCard';
 const Visit = () => {
   
   const Services = [
     {
         id:1,
-        img:Barrels_1,
-        paragraph:'', 
+        name:'Starter',
+        price:200,
+        paragraph:[
+            'lalalal',
+            'akakaka',
+            'Auefef',
+        ], 
     },
     {
         id:2,
-        img:Barrels_2,
-        paragraph:'', 
+        name:'PRO',
+        price:400,
+        paragraph:[
+            'lalalaafsfasfasfafaaaaal',
+            'akasafafafkaka',
+            'Auesssssfef',
+        ], 
     },
     {
         id:3,
-        img:Barrels_3,
-        paragraph:'', 
+        name:'Master',
+        price:600,
+        paragraph:[
+            'lalffffffffffffffffffffalal',
+            'asssssssssssssfffffffffkakaka',
+            'Aufffffffffffffffffffffefef',
+        ], 
     },
     
   ]
@@ -51,7 +63,9 @@ const Visit = () => {
         </div>
         <div className='visit__wrapcards'>
             {Services.map((aux)=>(
-                <CardVisit key={aux.id} Info={aux}/>
+                <div className='wrapcards__card' key={aux.id}>
+                    <PriceCard  Info={aux}/>
+                </div>
             ))}
         </div>
     </div>

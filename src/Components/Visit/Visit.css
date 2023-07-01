@@ -86,7 +86,8 @@
 }
 
 .visit__wrapcards{
-    max-height: 480;
+    height: auto;
+    width: 90%;
 
 
     display: flex;
@@ -96,19 +97,7 @@
     gap: 2em;
 }
 
-.slider{
-    aspect-ratio: 1600/900;
-    width: 300px;
-    position: relative;
-    display: flex;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-}
-
-.card__img{
-    width: 100%;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    scroll-snap-align: center;
+.wrapcards__card{
+    height: 480px;
+    width: 360px;
 }

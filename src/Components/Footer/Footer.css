@@ -4,6 +4,7 @@
     height: auto;
     min-height: 15vh;
     padding: 2% 5%;
+    z-index: 2;
 
     display: flex;
     flex-flow: row;
