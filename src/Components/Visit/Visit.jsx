@@ -1,47 +1,63 @@
 import './Visit.css'
 import Carousel from '../Carousel/Carousel';
 import PriceCard from '../PriceCard/PriceCard';
+import carou_restaurant  from '../../assets/img/Visit/Restaurant.jpg';
+import carou_picnic  from '../../assets/img/Visit/Picnic.jpg';
+import carou_cantante  from '../../assets/img/Visit/Cantante.png';
+import carou_paseo  from '../../assets/img/Visit/Paseo.jpg';
+import carou_degustacion  from '../../assets/img/Visit/Degustacion.jpg';
+import carou_bicicleta  from '../../assets/img/Visit/Bicicleta.png';
+
+
 const Visit = () => {
   
   const Services = [
     {
         id:1,
-        name:'Starter',
+        name:'Starter pack',
         price:200,
         paragraph:[
-            'lalalal',
-            'akakaka',
-            'Auefef',
+            'Access to restaurant.',
+            'Access to visit vineyards.',
+            '4-course daily menu.',
+            'Possibility to have a picnic.',
         ], 
     },
     {
         id:2,
-        name:'PRO',
-        price:400,
+        name:'Gabrielle Pack',
+        price:300,
         paragraph:[
-            'lalalaafsfasfasfafaaaaal',
-            'akasafafafkaka',
-            'Auesssssfef',
+            'Access to restaurant.',
+            'Access to visit vineyards.',
+            '4-course daily menu.',
+            'Guided tour of the facilities.',
+            'Tasting of our entry-level and mid-level wines.',
         ], 
     },
     {
         id:3,
-        name:'Master',
-        price:600,
+        name:'Giovanni Pack',
+        price:400,
         paragraph:[
-            'lalffffffffffffffffffffalal',
-            'asssssssssssssfffffffffkakaka',
-            'Aufffffffffffffffffffffefef',
+            'Access to restaurant.',
+            'Access to visit vineyards.',
+            '4-course daily menu.',
+            'Guided tour of the facilities.',
+            'Tasting of our mid-level and high-level wines.',
+            'Enjoy a live show by renowned artists.',
         ], 
     },
     
   ]
 
   const images = [
-    'https://cdn.shopify.com/s/files/1/0577/5550/0600/files/que-beneficios-tienen-vinos-sin-alcohol_600x600.jpg?v=1650455364',
-    'https://noadrinks.com/cdn/shop/articles/los-beneficios-vinos-sin-alcohol.jpg?crop=center&height=1280&v=1674154866&width=1280',
-    'https://noadrinks.com/cdn/shop/articles/Osco.jpg?crop=center&height=640&v=1648026072&width=640',
-    // imagen de ejemplo para ir viendo si funciona
+    carou_restaurant,
+    carou_picnic,
+    carou_degustacion,
+    carou_paseo,
+    carou_cantante,
+    carou_bicicleta
   ];
 
   return (
