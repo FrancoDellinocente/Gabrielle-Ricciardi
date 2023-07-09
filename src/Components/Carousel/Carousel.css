@@ -15,16 +15,20 @@
     object-fit: contain;  /* Ajusta la imagen sin deformarla */
   }
 
-  .carousel__left{
+  .carousel__button{
     position: absolute;
-    left: 1em;
     top: 50%;
-    background-color: brown;
+    cursor: pointer;
   }
 
-  .carousel__right{
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    background-color: brown;
+  .carousel__button:hover{
+    color: var(--blanco);
+  }
+
+  .carousel__button--left{
+    left: 2%;
+  }
+
+  .carousel__button--right{
+    right: 2%;
   }

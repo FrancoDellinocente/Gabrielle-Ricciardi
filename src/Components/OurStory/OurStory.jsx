@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './OurStory.css'
 import CardTimeLine from '../CardTimeLine/CardTimeLine';
-import Family_1 from '../../assets/img/Family_1.png'; 
-import Verona from '../../assets/img/Verona_1.jpg'; 
+import Family_1 from '../../assets/img/Family_1.png';  
 import i1623 from '../../assets/img/Timeline/1623.jpg';
 import i1645 from '../../assets/img/Timeline/1645.jpg';
 import i1692 from '../../assets/img/Timeline/1692.jpg';
@@ -116,7 +115,7 @@ const OurStory = () => {
   return (
     <div className='ourstory'>
       <div className='ourstory__firstimg'>
-        <img className='firstimg__img' src={Verona}></img>
+        
       </div>
       <div className='ourstory__banner'>
         <div className='banner__containerimg'>

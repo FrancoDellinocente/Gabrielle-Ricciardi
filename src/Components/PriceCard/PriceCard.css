@@ -71,11 +71,85 @@
     font-family: var(--tipo-subtitulos);
     color: var(--color-fondoOscuro);
     background-color: var(--color-logo);
+    border: .1em solid var(--color-logo);
     cursor: pointer;
 }
 
 .sectionpc__button:hover{
     color: var(--color-logo);
     background-color: var(--color-fondoOscuro);
+}
+
+
+
+/* #btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+} */
+
+.pricecard__modal{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.pricecard__modal.isActive{
+    display: flex;
+}
+.modal__modalcont{
+    width: 100%;
+    max-width: 25em;
+    padding: 3em;
+    background-color: var(--color-fondoOscuro);
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.modalcont__title{
+    color: var(--color-logo);
+    font-family: var(--tipo-titulos);
+    font-size: 4em;
+}
+.modalcont__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.modalcont__paragraph{
+    text-align: center;
+    color: var(--color-cuerpoOscuro);
+    font-family: var(--tipo-subtitulos);
+    font-size: 1em;
+}
+
+.modalcont__paragraph--highlight{
+    color: var(--color-logo);
 }
 

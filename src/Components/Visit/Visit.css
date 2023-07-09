@@ -1,6 +1,7 @@
 .visit{
     position: relative;
     top: 4em;
+    width: 100%;
     margin-bottom: 4em;
 }
 
@@ -68,8 +69,10 @@
 }
 
 .visit__carousel{
-    height: 80vh;
+    height: auto;
+    max-height: 80vh;
     width: 100%;
+    overflow: hidden;
 
     display: flex;
     align-items: center;
@@ -78,7 +81,7 @@
 
 .carousel__container{
     width: 100%;
-    height: 100%;
+    height: auto;
     overflow: hidden;
 
     display: flex;
@@ -87,7 +90,7 @@
 }
 
 .visit__wrapcards{
-    padding: 0 7%;
+    padding: 5% 7%;
     height: 100%;
     width: 100%;
 
@@ -101,5 +104,6 @@
 
 .wrapcards__card{
     flex: 1;
-    min-width: 22em; 
+    min-width: 22em;
+     
 }

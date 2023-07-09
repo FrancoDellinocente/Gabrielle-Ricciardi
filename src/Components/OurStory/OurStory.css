@@ -3,6 +3,7 @@
     top: 4em;
     width: 100%;
     margin-bottom: 5%;
+    overflow: hidden;
 
     display: flex;
     flex-flow: column;
@@ -11,13 +12,12 @@
 }
 
 .ourstory__firstimg{
+    background: linear-gradient(rgba(5, 7, 12, 0.50),rgba(5, 7, 12, 0.50)), url(../../assets/img/Verona_1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position-y: top;
+    height: 30vh;
     max-height: 30em;
     width: 100%;
-}
-
-.firstimg__img{
-    width: 100%;
-    margin-top: -150px;
 }
 
 .ourstory__banner{

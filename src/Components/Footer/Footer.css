@@ -1,4 +1,6 @@
 .footer{
+    position: relative;
+    bottom: 100%;
     background-color: var(--color-fondoOscuro);
     width: 100%;
     height: auto;
