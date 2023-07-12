@@ -1,0 +1,26 @@
+.wines{
+    position: relative;
+    top: 5em;
+    width: 100%;
+    margin-bottom: 10em;
+    height: auto; /* temporal */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wines__bannerprom{
+    background-color: var(--blanco);
+
+    max-width: 50em;
+    border-radius: 2em;
+    color: var(--negro);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
