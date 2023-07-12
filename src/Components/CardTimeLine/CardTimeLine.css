@@ -78,59 +78,5 @@
 }
 
 @media (max-width: 385px) {
-    /* .card {
-         max-width: 20em; 
-    }
-    .card{
-    background-color: var(--color-fondoClaro);
-    border-radius: 3em;
-    overflow: hidden;
-    max-width: 50%;
 
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card__info{
-    padding: 2em 2em;
-    hyphens: none;
-
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2vw;
-}
-
-.card__title{
-    color: var(--color-tituloClaro);
-    font-family: var(--tipo-subtitulos);
-    
-    font-size: 2em;
-    line-height: 1;
-}
-
-.card__paragraph{
-    color: var(--color-cuerpoClaro);
-    font-family: var(--tipo-cuerpo);
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 1;
-}
-
-.card__img{
-
-    max-height: 100%;
-    width: auto;
-    overflow: hidden;
-}
-
-@media (max-width: 385px) {
-     .card {
-         max-width: 20em; 
-    } 
-    
-    */
   }

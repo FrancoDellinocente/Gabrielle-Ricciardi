@@ -1,0 +1,34 @@
+/* eslint-disable react/prop-types */
+import './CardWine.css'
+import { useState } from 'react';
+
+const CardWine = ({Info}) => {
+
+    const [buttonText, setButtonText] = useState(false);
+  
+    const handleMouseEnter = () => {
+        setButtonText(true);
+      };
+    
+      const handleMouseLeave = () => {
+        setButtonText(false);
+      };
+
+
+    return (
+        <div className='cardwine'>
+            <div className='cardwine__containerimg'>
+                <img className='cardwine__img' src={Info.img} loading="lazy"/>
+            </div>
+            <button
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            className='cardwine__button'
+            >
+                    {buttonText ? 'more info' : Info.name}
+            </button>
+        </div>
+    )
+}
+
+export default CardWine

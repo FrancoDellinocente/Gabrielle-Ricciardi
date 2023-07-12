@@ -9,18 +9,86 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 1em;
 }
 
 .wines__bannerprom{
     background-color: var(--blanco);
 
     max-width: 50em;
-    border-radius: 2em;
+    border-radius: 1em;
     color: var(--negro);
     overflow: hidden;
 
     display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannerprom__containerimag{
+    width: 25%;
+}
+
+
+.bannerprom__info{
+    width: 100%;
+    padding: 2% 5%;
+    hyphens: none;
+
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    gap: .5em;
+}
+
+.bannerprom__text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.bannerprom__link{
+    text-decoration: underline;
+}
+
+
+.wines__ourwinessection{
+    padding: 5% 0;
+    background-color: var(--color-fondoClaro);
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ourwinessection__title{
+    font-family: var(--tipo-titulos);
+    color: var(--color-tituloClaro);
+    font-size: 6em;
+}
+
+
+.wines__wrapwines{
+    padding: 5% 20% 0 20%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-flow:wrap;
+    align-items: center;
     justify-content: center;
+    gap: 2em;
+}
+
+.wines__cardwines{
+    flex: 1;
+    min-width: 10em;
+    max-width: 10em;
+    
 }

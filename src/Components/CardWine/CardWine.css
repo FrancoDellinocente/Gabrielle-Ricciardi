@@ -1,0 +1,29 @@
+.cardwine{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardwine__containerimg{
+    width: 60%;
+}
+
+
+.cardwine__button{
+    width: 100%;
+    font-size: 1em;
+    padding: .7em 1.5em;
+    margin-top: 2em;
+    font-family: var(--tipo-subtitulos);
+    color: var(--color-fondoOscuro);
+    background-color: var(--color-logo);
+    border: .1em solid var(--color-logo);
+}
+
+.cardwine__button:hover{
+    color: var(--color-logo);
+    background-color: var(--color-fondoOscuro);
+}
