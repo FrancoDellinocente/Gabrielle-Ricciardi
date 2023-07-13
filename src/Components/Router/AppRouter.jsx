@@ -5,6 +5,7 @@ import { Fragment } from 'react'
 import OurStory from '../OurStory/OurStory'
 import Visit from '../Visit/Visit'
 import Wines from '../Wines/wines'
+import WineDetail from '../WineDetail/WineDetail'
 
 
 const AppRouter = () => {
@@ -15,6 +16,9 @@ const AppRouter = () => {
             <Route exact path='/story' element={<OurStory />} />
             <Route exact path='/visit' element={<Visit />} />
             <Route exact path='/wines' element={<Wines />} />
+            <Route path="wineDetail">
+                <Route path=":parametro" element={<WineDetail  />} />
+            </Route>
         </Routes>  
     </Fragment>
     )

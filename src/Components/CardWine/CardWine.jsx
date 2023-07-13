@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from 'react-router-dom';
 import './CardWine.css'
 import { useState } from 'react';
 
@@ -20,13 +21,14 @@ const CardWine = ({Info}) => {
             <div className='cardwine__containerimg'>
                 <img className='cardwine__img' src={Info.img} loading="lazy"/>
             </div>
-            <button
+            <Link
+            to={'/wineDetail/' + Info.id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             className='cardwine__button'
             >
                     {buttonText ? 'more info' : Info.name}
-            </button>
+            </Link>
         </div>
     )
 }
