@@ -17,21 +17,17 @@ const WineDetail = () => {
 
     return (
         <div className='winesdetail'>
-            <div className='winesdetail__containertitle'>
-                <h1 className='winesdetail__title'>{wine.name}</h1>
-            </div>
             <div className='winesdetail__containerinfo'>
-                <div 
-                className='winesdetail__containerdescription'
-                style={{
-                    background: `linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(${wine.rock}) no-repeat center center fixed`,
-                    backgroundSize: 'cover',
-                    }}
-                >
-                    <h1 className='winesdetail__description'>{wine.description}</h1>
+                <div className='winesdetail__containerdescription'>
+                    <h1 className='containerdescription__title'>DESCRIPTION:</h1>
+                    <p className='containerdescription__paragraph'>{wine.description}</p>
+                    <h1 className='containerdescription__title'>VARIETAL:</h1>
+                    <p className='containerdescription__paragraph'>{wine.varietal}</p>
+                    <h1 className='containerdescription__title'>TASTING NOTES:</h1>
+                    <p className='containerdescription__paragraph'>{wine.notes}</p>
                 </div>
                 <div className='winesdetail__containerbottle'>
-                    <img className='winesdetail__bottle' src={wine.wine} loading="lazy"/>
+                    <img className='winesdetail__bottle' src={wine.wine} loading="lazy"/> 
                 </div> 
             </div>
             <Link to="/wines">back</Link>

@@ -12,39 +12,54 @@
     gap: 1em;
 }
 
-.winesdetail__containertitle{
-    padding: 7% 5%;
-}
-
-.winesdetail__title{
-    font-family: var(--tipo-titulos);
-    color: var(--color-logo);
-    font-size: 8em;
-}
 
 .winesdetail__containerinfo{
-    padding: 2% 10%;
-    height: 80vh;
+    height: auto;
+    background-color: var(--blanco);
+    line-height: 1.75em;
+    
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.winesdetail__containerdescription{
+    justify-self: end;
+    height: 100%;
+    max-width: 90%;
+    hyphens: none;
+    padding: 0 5% 0 0;
+    color: var(--negro);
+    letter-spacing: 1.5px;
 
     display: flex;
-    flex-flow: row;
+    flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 
-.winesdetail__containerdescription{
-    height: 100%;
-    max-width: 60%;
+.containerdescription__title{
+    margin-top: 2em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.containerdescription__paragraph{
+    color: var(--color-cuerpoClaro);
 }
 
 .winesdetail__containerbottle{
     background-color: var(--color-fondoClaro);
     height: 100%;
-    width: auto;
+    width: 100%;
+    padding: 2% 5%;
 }
 
+
 .winesdetail__bottle{
-    
-    max-height: 100%;
+    height: 41em;
+    width: auto;
+    margin: auto;
 }
 
