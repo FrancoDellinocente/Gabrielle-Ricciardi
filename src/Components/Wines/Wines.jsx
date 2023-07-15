@@ -7,7 +7,7 @@ import Wine_Amethyst from '../../assets/img/Wines/Wine_Amethyst.png';
 import Wine_Onyx from '../../assets/img/Wines/Wine_Onyx.png';
 import Wine_Diamond from '../../assets/img/Wines/Wine_Diamond.png';
 import Wine_Ruby from '../../assets/img/Wines/Wine_Ruby.png';
-import Wine_Topaz from '../../assets/img/Wines/Wine_Rhodochrosite.png';
+import Wine_Topaz from '../../assets/img/Wines/Wine_Topaz.png';
 import CardWine from '../CardWine/CardWine';
 
 const Wines = () => {

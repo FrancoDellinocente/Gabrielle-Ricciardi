@@ -12,22 +12,24 @@
 
 .Home__texts{
     position: absolute;
-    bottom: 1%;
+    bottom: 0;
     color: var(--color-logo);
     padding: 3em 4em;
+    width: 100%;
 
 
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
 
 }
 
 .Home__logo{
     fill: var(--color-logo);
-    height: 100vw;
+    width: auto;
+    height: 100%;
     max-height: 13vw;
 }
 
@@ -35,6 +37,7 @@
 .Home__slogan{
     font-family: var(--tipo-cuerpo);
     font-size: 3em;
+    text-align: center;
 }
 
 .Home__button{
@@ -50,4 +53,68 @@
 .Home__button:hover{
     color: var(--color-logo);
     background-color: var(--color-fondoOscuro);
+}
+
+@media (max-width: 950px) {
+    .Home__texts{
+        padding: 3em 0;
+    }
+
+    .Home__logo{
+        width: auto;
+        height: 100%;
+    }
+
+    .Home__slogan{
+        font-size: 2em;
+    }
+
+    .Home__button{
+        font-size: 1em;
+        padding: .5em 1em;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .Home__texts{
+        padding: 3em 0;
+        bottom: 10%;
+    }
+
+    .Home__logo{
+        width: auto;
+        height: 100%;
+    }
+
+    .Home__slogan{
+        font-size: 1.5em;
+    }
+
+    .Home__button{
+        font-size: 1em;
+        padding: .5em 1em;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .Home__texts{
+        padding: 3em 0;
+    }
+
+    .Home__logo{
+        width: auto;
+        height: 100%;
+    }
+
+    .Home__slogan{
+        font-size: 1em;
+    }
+
+    .Home__button{
+        font-size: 1em;
+        padding: .5em 1em;
+        margin-top: 0;
+    }
 }

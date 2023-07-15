@@ -9,7 +9,6 @@ const WineDetail = () => {
 
     useEffect(() => {
         const wine = getWineById(parametro);
-        console.log(wine);
         if (wine) {
           setWine(wine);
         }
