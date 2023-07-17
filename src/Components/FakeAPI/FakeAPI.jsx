@@ -8,6 +8,50 @@ import Wine_Ruby from '../../assets/img/Wines/Wine_Ruby.png';
 import Wine_Topaz from '../../assets/img/Wines/Wine_Topaz.png';
 
 // eslint-disable-next-line react-refresh/only-export-components
+const ListWines = [
+    {
+        id:1,
+        name:'Rhodochrosite',
+        img: Wine_Rhodochrosite,
+    },  
+    {
+        id:2,
+        name:'Sapphire',
+        img: Wine_Sapphire,
+    }, 
+    {
+        id:3,
+        name:'Emerald',
+        img: Wine_Emerald,
+    }, 
+    {
+        id:4,
+        name:'Amethyst',
+        img: Wine_Amethyst,
+    }, 
+    {
+        id:5,
+        name:'Onyx',
+        img: Wine_Onyx,
+    }, 
+    {
+        id:6,
+        name:'Diamond',
+        img: Wine_Diamond,
+    }, 
+    {
+        id:7,
+        name:'Ruby',
+        img: Wine_Ruby,
+    }, 
+    {
+        id:8,
+        name:'Topaz',
+        img: Wine_Topaz,
+    },   
+  ]
+
+// eslint-disable-next-line react-refresh/only-export-components
 const  ListWinesDetail = [
     {
         id:1,
@@ -75,6 +119,9 @@ const  ListWinesDetail = [
     },   
   ]
 
+export const getAllWine = () => {
+    return ListWines;
+};
 
 export const getWineById = (id) => {
     const parsedId = parseInt(id);

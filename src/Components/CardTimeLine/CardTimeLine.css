@@ -1,29 +1,27 @@
 .card{
     position: relative;
-    padding: 2.5em 0;
+    padding: 0 0 0 0;
     width: 100%;
     
-
+    background-color: var(--color-fondoClaro);
     display: grid;
     grid-template-columns: 60% 40%;
     justify-content: start;
     align-items: center;
-    
-
 }
 
 .card__info{
     position: relative;
     left: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
 
-    padding: 8% 30% 8% 12%;
-    background-color: #FFFFFF;
+    padding: 8% 12%;
+    background-color: var(--blanco);
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 0.6em;
 }
 
@@ -37,7 +35,7 @@
 .card__year{
     display: inline-block;
     color: var(--negro);
-    background-color: #FFFFFF;
+    background-color: var(--blanco);
     z-index: 1;
 }
 
@@ -68,15 +66,25 @@
 }
 
 .card__containerimg{
-
-    width: 26em;
+    background-color: var(--color-fondoClaro);
+    width: 100%;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
 }
 
 .card__img{
+    height: auto;
     width: 100%;
 }
 
-@media (max-width: 385px) {
+@media (max-width: 768px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
 
-  }
+}

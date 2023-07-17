@@ -82,39 +82,14 @@
         bottom: 10%;
     }
 
-    .Home__logo{
-        width: auto;
-        height: 100%;
-    }
-
     .Home__slogan{
         font-size: 1.5em;
-    }
-
-    .Home__button{
-        font-size: 1em;
-        padding: .5em 1em;
-        margin-top: 0;
     }
 }
 
 @media (max-width: 425px) {
-    .Home__texts{
-        padding: 3em 0;
-    }
-
-    .Home__logo{
-        width: auto;
-        height: 100%;
-    }
-
     .Home__slogan{
         font-size: 1em;
     }
 
-    .Home__button{
-        font-size: 1em;
-        padding: .5em 1em;
-        margin-top: 0;
-    }
 }

@@ -111,6 +111,7 @@ const OurStory = () => {
       paragraph:'Gabrielle Ricciardi celebrates its 400th anniversary as one of Italy´s oldest and most prestigious wineries. A series of special events and limited-edition commemorative wines pay tribute to the rich history and passion that has driven the winery throughout the centuries', 
     },
   ]
+
   
   return (
     <div className='ourstory'>
@@ -143,9 +144,8 @@ const OurStory = () => {
             </p>
           </div>
         </div>
-
-      
       </div>
+      
       <div className='ourstory__wraptimeline'>
         <h1 className='wraptimeline__title'>Time Line</h1>
         <div className='wraptimeline__timeline'>
