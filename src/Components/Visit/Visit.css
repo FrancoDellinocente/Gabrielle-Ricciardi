@@ -56,6 +56,7 @@
     font-size: 6em;
     margin-bottom: .7em;
     line-height: 1;
+    text-align: center;
     hyphens: none;
 }
 
@@ -67,6 +68,7 @@
     line-height: 1;
     hyphens: none;
 }
+
 
 .visit__carousel{
     height: auto;
@@ -105,5 +107,58 @@
 .wrapcards__card{
     flex: 1;
     min-width: 22em;
+    max-width: 25em;
      
+}
+
+@media (max-width: 768px) {
+    .visit__bannerv{
+        padding: 7% 0 0 5%;
+        justify-content: start;
+        gap: .5em;
+    }
+    
+    .bannerv__title{
+        font-size: 1em;
+    }
+
+    .bannerv__subtitle{
+        font-size: 1em;
+    }
+
+    .visit__introduction{
+        padding: 5% 10%;
+        justify-content: space-around;
+    }
+    .introduction__title{
+        font-size: 4em;
+        margin-bottom: 0em;
+    }
+    .introduction__paragraph{
+        display: inline-block;
+        font-size: 1em;
+        hyphens: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .visit__wrapcards{
+        padding: 5% 0;
+        height: 100%;
+        width: 100%;
+    
+    
+        display: flex;
+        flex-flow:wrap;
+        align-items: stretch;
+        justify-content: center;
+        gap: 2em;
+    }
+    
+    .wrapcards__card{
+        flex: 1;
+        min-width: 22em;
+        max-width: 26.5em;
+         
+    }
 }

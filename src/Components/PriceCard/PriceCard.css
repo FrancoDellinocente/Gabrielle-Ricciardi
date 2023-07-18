@@ -80,26 +80,7 @@
     background-color: var(--color-fondoOscuro);
 }
 
-
-
-/* #btn-modal{
-    display: none;
-}
-.container-modal{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-}
-
-#btn-modal:checked ~ .container-modal{
-    display: flex;
-} */
+/* Modal  desactivado*/
 
 .pricecard__modal{
     display: none;
@@ -116,6 +97,7 @@
 .pricecard__modal.isActive{
     display: flex;
 }
+
 .modal__modalcont{
     width: 100%;
     max-width: 25em;
@@ -152,4 +134,19 @@
 .modalcont__paragraph--highlight{
     color: var(--color-logo);
 }
+
+@media (max-width: 768px) {
+    .pricecard{
+        padding: 7% 2.5%;
+        gap: 2em;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .modal__modalcont{
+        border-radius: 0em;
+    }
+}
+
 

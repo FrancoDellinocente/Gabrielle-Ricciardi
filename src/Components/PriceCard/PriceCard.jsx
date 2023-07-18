@@ -30,21 +30,7 @@ const PriceCard = ({Info}) => {
             Contact
           </button>
         </div>
-        {/* <label htmlFor="btn-modal">
-            Abrir Modal
-        </label>
-        <input type="checkbox" id="btn-modal"></input>
-        <div className="container-modal">
-            <div className="content-modal">
-                <h2>¡Bienvenido!</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!</p>
-                <div className="btn-cerrar">
-                    <label htmlFor="btn-modal">Cerrar</label>
-                </div>
-            </div>
-            <label htmlFor="btn-modal" className="cerrar-modal"></label>
-        </div> */}
-        
+      
         <div className={`pricecard__modal ${modal ? 'isActive' : ''}`}>
             <div className="modal__modalcont">
                 <h1 className='modalcont__title'>Contact us</h1>

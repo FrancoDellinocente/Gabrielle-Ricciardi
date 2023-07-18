@@ -32,3 +32,10 @@
   .carousel__button--right{
     right: 2%;
   }
+
+  @media (max-width: 768px) {
+    .carousel__button{
+      height: 1.5em;
+      width: 1.5em;
+    }
+  }
