@@ -18,7 +18,7 @@ const WineDetail = () => {
         <div className='winesdetail'>
             <div className='winesdetail__containerinfo'>
                 <div className='winesdetail__containerdescription'>
-                    <h1 className='aaa'>{wine.name}</h1>
+                    <h1 className='winesdetail__name'>{wine.name}</h1>
                     <h1 className='containerdescription__title'>DESCRIPTION:</h1>
                     <p className='containerdescription__paragraph'>{wine.description}</p>
                     <h1 className='containerdescription__title'>VARIETAL:</h1>

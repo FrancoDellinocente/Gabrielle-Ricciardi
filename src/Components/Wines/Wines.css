@@ -33,7 +33,7 @@
 
 .bannerprom__info{
     width: 100%;
-    padding: 2% 5%;
+    padding: 5% 5%;
     hyphens: none;
 
     display: flex;
@@ -67,7 +67,7 @@
 
 .ourwinessection__title{
     font-family: var(--tipo-titulos);
-    color: var(--color-tituloClaro);
+    color: var(--negro);
     font-size: 6em;
 }
 
@@ -91,4 +91,33 @@
     min-width: 10em;
     max-width: 10em;
     
+}
+
+@media (max-width: 768px) {
+    .wines{
+        flex-direction:column-reverse;
+    }
+
+    .wines__bannerprom{
+        max-width: 50em;
+        border-radius: 1em;
+
+        flex-direction: column;
+    }
+
+    .bannerprom__containerimag{
+        width: 100%;
+    }
+
+    .ourwinessection__title{
+        padding: 1em 0.5em;
+        text-align: center;
+        line-height: .7em;
+    }
+}
+
+@media (max-width: 425px) {
+    .wines__bannerprom{
+        border-radius: 0;
+    }
 }

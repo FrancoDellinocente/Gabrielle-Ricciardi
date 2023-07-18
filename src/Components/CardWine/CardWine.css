@@ -18,6 +18,7 @@
     padding: .7em 1.5em;
     margin-top: 2em;
     font-family: var(--tipo-subtitulos);
+    text-align: center;
     color: var(--color-fondoOscuro);
     background-color: var(--color-logo);
     border: .1em solid var(--color-logo);
