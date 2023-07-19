@@ -73,7 +73,7 @@
   @media (max-width: 768px) {
     .navbar{
 
-        height: 3em;
+        min-height: 3em;
 
     
         display: flex;
