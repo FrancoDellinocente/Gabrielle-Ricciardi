@@ -1,6 +1,6 @@
 # Gabrielle-Ricciardi
 
-[![Imagen](https://github.com/FrancoDellinocente/Portfolio/raw/master/assets/62858034/38259931-2e6b-4bf2-bc39-5358be7debf4.png)](https://gabrielle-ricciardi-wv3q.vercel.app/)
+[![Imagen](https://i.postimg.cc/sfPKyWnG/Captura-gabrielle-ricciardi.png)](https://gabrielle-ricciardi-wv3q.vercel.app/)
 
 Live server: https://gabrielle-ricciardi-wv3q.vercel.app/
 
