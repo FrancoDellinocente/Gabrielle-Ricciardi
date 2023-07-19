@@ -13,10 +13,15 @@ Landing page of a winery. The winery isn't real, it's a demonstration of my know
 To run this project locally on your machine, follow these steps:
 
 1. Clone the repository:
+
    git clone https://github.com/FrancoDellinocente/Gabrielle-Ricciardi.git
-2. Install dependencies:
+   
+3. Install dependencies:
+
    npm install
-3. Start the development server:
+   
+5. Start the development server:
+   
    npm run dev
 
 
