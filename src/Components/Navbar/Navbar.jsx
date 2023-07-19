@@ -8,7 +8,13 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenu(!menu);
+    window.scrollTo(0, 0);
   };
+
+  const toggleMenuMovile = () => {
+    setMenu(!menu);
+  };
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,7 +49,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <button className="navbar__buttonmovile" onClick={toggleMenu}>
+      <button className="navbar__buttonmovile" onClick={toggleMenuMovile}>
         <svg
           className="buttonmovile__svg"
           xmlns="http://www.w3.org/2000/svg"

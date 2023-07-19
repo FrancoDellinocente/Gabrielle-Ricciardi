@@ -71,6 +71,20 @@
 }
 
   @media (max-width: 768px) {
+    .navbar{
+
+        height: 3em;
+
+    
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar__logo{
+        height: 1.9em;
+     }
 
     .navbar__buttons{
         display: flex;

@@ -11,7 +11,6 @@ import i1801 from '../../assets/img/Timeline/1801.png';
 import i1870 from '../../assets/img/Timeline/1870.jpg';
 import i1890 from '../../assets/img/Timeline/1890.jpg';
 import i1920 from '../../assets/img/Timeline/1920.jpg';
-import i1957 from '../../assets/img/Timeline/1957.jpg';
 import i2002 from '../../assets/img/Timeline/2002.jpg';
 import i2010 from '../../assets/img/Timeline/2010.jpg';
 import i2023 from '../../assets/img/Timeline/2023.jpg';
@@ -84,27 +83,20 @@ const OurStory = () => {
     },
     {
       id:10,
-      img:i1957,
-      year: 1957,
+      img:i2002,
+      year: 2002,
       title:'Innovation and Technology',
-      paragraph:'Gabrielle Ricciardi embraces innovation and cutting-edge technology in their winemaking process, marrying tradition with modern advancements to achieve wines of utmost precision and quality', 
+      paragraph:'Gabrielle Ricciardi embraces innovation and cutting-edge technology in their winemaking process, marrying tradition with modern advancements to achieve wines of utmost precision and quality.', 
     },
     {
       id:11,
-      img:i2002,
-      year: 2002,
-      title:'Fundación de la Bodega',
-      paragraph:'Giovanni Ricciardi, apasionado enólogo, establece los viñedos de Gabrielle Ricciardi en la pintoresca provincia de Verona, Italia. Es el inicio de una larga tradición vinícola familiar.', 
-    },
-    {
-      id:12,
       img:i2010,
       year: 2010,
       title:'Worldwide Acclaim',
       paragraph:'Gabrielle Ricciardi´s wines garner worldwide acclaim, earning prestigious awards and accolades, solidifying their position as a revered and sought-after winery globally.', 
     },
     {
-      id:13,
+      id:12,
       img:i2023,
       year: 2023,
       title:'Celebrating 400 Years of Excellence',

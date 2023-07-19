@@ -6,6 +6,10 @@ import { useState } from 'react';
 const CardWine = ({Info}) => {
 
     const [buttonText, setButtonText] = useState(false);
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
   
     const handleMouseEnter = () => {
         setButtonText(true);
@@ -25,6 +29,7 @@ const CardWine = ({Info}) => {
             to={'/wineDetail/' + Info.id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onClick={scrollToTop}
             className='cardwine__button'
             >
                     {buttonText ? 'more info' : Info.name}

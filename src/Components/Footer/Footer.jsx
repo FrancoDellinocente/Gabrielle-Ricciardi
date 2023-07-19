@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
   
   return (
     <div className='footer'>
@@ -31,14 +35,14 @@ const Footer = () => {
         </div>
         <div className='footer__important'>
             <h1>THIS PAGE IS NOT REAL, IT IS A PRACTICE PROJECT</h1>
-            <h1>ESTA PAGINA NO ES REAL, ES UN PRYECTO DE PRACTICA</h1>
+            <h1>ESTA PAGINA NO ES REAL, ES UN PROYECTO DE PRACTICA</h1>
         </div>
         <div className='footer__pages'>
             
-            <Link className="pages__link"  to="/">Home</Link>
-            <Link className="pages__link"  to="/story">Our Story</Link>
-            <Link className="pages__link"  to="/visit" >Visit</Link>
-            <Link className="pages__link"  to="/wines" >Wines</Link>
+            <Link className="pages__link"  to="/" onClick={scrollToTop}>Home</Link>
+            <Link className="pages__link"  to="/story" onClick={scrollToTop}>Our Story</Link>
+            <Link className="pages__link"  to="/visit"  onClick={scrollToTop}>Visit</Link>
+            <Link className="pages__link"  to="/wines"  onClick={scrollToTop}>Wines</Link>
         </div>
     </div>
   );

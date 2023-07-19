@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+  
   return (
     <div className='Home'>
         <div className='Home__texts'>
@@ -13,7 +16,7 @@ const Home = () => {
               />
             </svg>
             <h2 className='Home__slogan'>The Golden Dawn In Each Glass</h2>
-            <Link className='Home__button' to='/visit'>Book a tour</Link>
+            <Link className='Home__button' to='/visit' onClick={scrollToTop}>Book a tour</Link>
         </div>
     </div>
   );

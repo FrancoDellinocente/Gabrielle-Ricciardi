@@ -2,7 +2,7 @@
     position: relative;
     top: 5em;
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 8em;
     overflow: hidden;
 
     display: flex;
@@ -116,9 +116,6 @@
   }
 
 @media (max-width: 1023px) {
-    .ourstory{
-        margin-bottom: 15%;
-    }
     .ourstory__banner{
         padding: 1% 0;
     
