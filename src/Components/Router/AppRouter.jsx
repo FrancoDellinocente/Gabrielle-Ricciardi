@@ -4,7 +4,7 @@ import Home from '../Home/Home'
 import { Fragment } from 'react'
 import OurStory from '../OurStory/OurStory'
 import Visit from '../Visit/Visit'
-import Wines from '../Wines/wines'
+import Wines from '../Wines/Wines'
 import WineDetail from '../WineDetail/WineDetail'
 
 
